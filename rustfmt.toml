@@ -1,0 +1,4 @@
+edition = "2024"
+imports_granularity = "Module"
+use_field_init_shorthand = true
+reorder_impl_items = true

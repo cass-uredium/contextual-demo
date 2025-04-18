@@ -1,0 +1,13 @@
+name = "contextual-capture"
+product-name = "ContextualCapture"
+identifier = "dev.uredium.contextual-capture"
+version = "0.1.0"
+out-dir = "./dist"
+before-packaging-command = "cargo build --release"
+binaries = [
+    { path = "../target/release/contextual-capture", main = true }
+]
+
+[macos]
+entitlements = "./Entitlements.plist"
+signingIdentity = "Cassaundra Smith"
